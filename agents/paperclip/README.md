@@ -1,6 +1,6 @@
 # Paperclip agent mirrors
 
-This folder contains **verbatim copies** of each **WAR** company agent’s managed `AGENTS.md` from the local Paperclip instance (paths under `…/companies/<companyId>/agents/<agentId>/instructions/`).
+This folder contains **verbatim copies** of each **WAR** company agent’s full managed **instructions root** from the local Paperclip instance (`instructionsRootPath`: `…/companies/<companyId>/agents/<agentId>/instructions/`). That includes `AGENTS.md` plus companion files such as **`SOUL.md`**, **`TOOLS.md`**, **`HEARTBEAT.md`** (when present), and any subfolders (for example `memory/`).
 
 | Folder | Agent (Paperclip `urlKey`) |
 |--------|----------------------------|
@@ -19,4 +19,4 @@ This folder contains **verbatim copies** of each **WAR** company agent’s manag
 
 **Canonical for runtime:** Paperclip still loads instructions from the managed bundle on disk or via the control plane. Treat these files as a **repo-local snapshot** for search, review, and onboarding—not as the source of truth for adapter `instructionsFilePath` unless you intentionally repoint adapters.
 
-**Refreshing:** Re-run the copy step from a machine that can read the Paperclip company `agents/` tree (same paths as in each agent’s `instructionsFilePath`).
+**Refreshing:** Re-run the recursive copy from a machine that can read each agent’s `instructionsRootPath` (see Paperclip agent `adapterConfig` in the API).

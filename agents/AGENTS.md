@@ -14,5 +14,5 @@ This project is intentionally minimal. Prefer small, focused changes. Do not add
 
 ## Repository layout
 
-- `agents/` — agent instructions, optional `cursor/` notes for Cursor rules, per-role subfolders, and [`paperclip/`](./paperclip/README.md) mirrors of company agent `AGENTS.md` files.
+- `agents/` — agent instructions, optional `cursor/` notes for Cursor rules, per-role subfolders, and [`paperclip/`](./paperclip/README.md) mirrors of each company agent’s full instruction bundle (`AGENTS.md`, `SOUL.md`, `TOOLS.md`, …).
 - `README.md` — high-level project pointer.

@@ -7,7 +7,7 @@ This directory is the canonical home for **in-repo** AI agent instructions and p
 | Path | Purpose |
 |------|---------|
 | [`AGENTS.md`](./AGENTS.md) | Default instructions for any agent working in this repository. |
-| [`paperclip/`](./paperclip/README.md) | Per-agent **`AGENTS.md` copies** for each Paperclip company agent (`<urlKey>/AGENTS.md`). |
+| [`paperclip/`](./paperclip/README.md) | Per-agent **full instruction bundle** for each Paperclip company agent (`<urlKey>/…` — `AGENTS.md`, `SOUL.md`, `TOOLS.md`, etc.). |
 | [`cursor/`](./cursor/README.md) | Optional Cursor rules; see README for how this relates to `.cursor/rules/`. |
 | [`_template/`](./_template/AGENTS.md) | Starter file for new per-agent folders. |
 | `<role>/AGENTS.md` | Optional per-role overrides (for example `agents/review/AGENTS.md`). Add subfolders as the team grows. |
