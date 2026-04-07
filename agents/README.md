@@ -7,6 +7,7 @@ This directory is the canonical home for **in-repo** AI agent instructions and p
 | Path | Purpose |
 |------|---------|
 | [`AGENTS.md`](./AGENTS.md) | Default instructions for any agent working in this repository. |
+| [`cursor/`](./cursor/README.md) | Optional Cursor rules; see README for how this relates to `.cursor/rules/`. |
 | `<role>/AGENTS.md` | Optional per-role overrides (for example `agents/review/AGENTS.md`). Add subfolders as the team grows. |
 
 ## Migration note
