@@ -8,7 +8,7 @@ Start with [`agents/AGENTS.md`](./agents/AGENTS.md), then point your agent tool 
 cat agents/AGENTS.md
 ```
 
-Company Paperclip agents are mirrored under [`agents/paperclip/`](./agents/paperclip/README.md) (`<urlKey>/` — full instruction bundle: `AGENTS.md`, `SOUL.md`, `TOOLS.md`, …). For a new custom profile, copy [`agents/_template/AGENTS.md`](./agents/_template/AGENTS.md) to `agents/<agent-key>/AGENTS.md` and customize.
+[`agents/paperclip/`](./agents/paperclip/README.md) is reserved for mirrors of Company Paperclip agents (`<urlKey>/` — full instruction bundle: `AGENTS.md`, `SOUL.md`, `TOOLS.md`, …); it is currently empty — see that file for status. For a new custom profile, copy [`agents/_template/AGENTS.md`](./agents/_template/AGENTS.md) to `agents/<agent-key>/AGENTS.md` and customize.
 
 ---
 
