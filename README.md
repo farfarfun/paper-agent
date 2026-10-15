@@ -2,6 +2,8 @@
 
 This repository provides portable instructions and profiles for AI agents; it does not require installation.
 
+## Usage
+
 Start with [`agents/AGENTS.md`](./agents/AGENTS.md), then point your agent tool at that file. For example:
 
 ```bash
